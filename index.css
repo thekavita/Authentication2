@@ -1,0 +1,42 @@
+body{
+    background-color: antiquewhite;
+}
+.container{
+    margin: 20px;
+    
+}
+.cent{
+    text-align: center;
+}
+#granted,#passwordSaved{
+    color: green;
+    display: none;
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: 600;
+}
+
+#denied,#enter{
+    color: red;
+    display: none;
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: 600;
+}
+#log,#access{
+    display: none;
+}
+.progress-bar{
+    border-radius: 2px ;
+}
+.atag{
+   opacity: 0.5;
+   text-decoration: none;
+}
+
+.activee{
+    opacity: 1;
+}
+.both{
+    border: 5px solid black;
+}
